@@ -1,0 +1,11 @@
+.navBar
+{
+}
+/*.navBar::after{
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid red;
+    width: 100%;
+    display: block;
+    bottom: 0;
+}*/

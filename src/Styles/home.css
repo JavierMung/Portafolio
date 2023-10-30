@@ -1,0 +1,38 @@
+
+.Titulo{
+    font-size: 2.5rem;
+    font-family: 'Merriweather', monospace;
+    font-weight: 900;
+    font-style: italic;
+    color: #0730FA;
+    /*border: 1px solid red;*/
+    display: flex;
+
+}
+.imagen-responsiva {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.centrar{
+   /* border: 1px solid blue ;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.centrar2{
+   /*border: 1px solid blue ;*/
+    display: flex;
+    justify-content: space-between;
+}
+.columna{
+    width: 48%;
+}
+.info{
+    text-align: justify;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-family: 'Merriweather', 'Arial Narrow', Arial, sans-serif;
+}
