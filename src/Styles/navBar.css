@@ -1,11 +1,36 @@
 .navBar
 {
-}
-/*.navBar::after{
-    position: absolute;
-    content: "";
-    border-bottom: 2px solid red;
+    background-color: #2A2C33;
+    display: flex;
+    justify-content: center;
+    position: fixed;
     width: 100%;
-    display: block;
-    bottom: 0;
-}*/
+    z-index: 15000;
+}
+.boton{
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    margin:10px;
+    background-color: transparent;
+    text-decoration: none;
+    border: transparent;
+    padding: 8px;
+    border-radius: 6px;
+    --variable:aliceblue;
+    color: var(--variable);
+}
+.boton:hover{
+    background-color: aliceblue;
+    --variable:#2A2C33;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    --variable:aliceblue;
+}
+.navBarContainer{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}

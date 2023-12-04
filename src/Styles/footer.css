@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    padding: 2rem;
+    background-color: #2A2C33;
+    color:white;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
